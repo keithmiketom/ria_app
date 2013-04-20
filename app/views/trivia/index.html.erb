@@ -1,0 +1,29 @@
+<h1>Listing trivia</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Fact</th>
+    <th>Image url</th>
+    <th>Difficulty</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @trivia.each do |trivium| %>
+  <tr>
+    <td><%= trivium.title %></td>
+    <td><%= trivium.fact %></td>
+    <td><%= trivium.image_url %></td>
+    <td><%= trivium.difficulty %></td>
+    <td><%= link_to 'Show', trivium %></td>
+    <td><%= link_to 'Edit', edit_trivium_path(trivium) %></td>
+    <td><%= link_to 'Destroy', trivium, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Trivium', new_trivium_path %>
