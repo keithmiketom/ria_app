@@ -1,25 +1,17 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>Age:</b>
-  <%= @cat.age %>
-</p>
+<div class="cat_class">
+  <h2><%= @cat.name %></h2>
+  <ul>
+    <li><%= @cat.age %> years old</li>
+    <li><%= @cat.color %> coloured cat</li>
+  </ul>
+  <div class="cat_description">
+    <%= @cat.description %>
+  </div>
 
-<p>
-  <b>Color:</b>
-  <%= @cat.color %>
-</p>
-
-<p>
-  <b>Name:</b>
-  <%= @cat.name %>
-</p>
-
-<p>
-  <b>Description:</b>
-  <%= @cat.description %>
-</p>
-
+</div>
 
 <%= link_to 'Edit', edit_cat_path(@cat) %> |
 <%= link_to 'Back', cats_path %>
+<div>

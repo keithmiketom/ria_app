@@ -1,0 +1,58 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Designer/Developer: Keith Michael Gregg
+  Site: www.keithgregg.com www.keithmiketom.com
+  Twitter:@keithmiketom
+  Location: Dublin, Ireland
+
+  Designer/Developer: David Winters
+  Site:
+  Twitter:
+  Location: Dublin, Ireland
+
+  Designer/Developer: Sandra Mc Cormack, the sexy one
+  Site:
+  Twitter:
+  Location: Dublin, Ireland and sometimes NYC, USA
+
+
+
+/* THANKS */
+  Names (& URL):
+  Philippe Vinchon
+  Karen Rooney
+  Wool
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery
+  Software: Ruby on Rails 3
+
+
+
+                               -o/-
+                               +oo//-
+                              :ooo+//:
+                             -ooooo///-
+                             /oooooo//:
+                            :ooooooo+//-
+                           -+oooooooo///-
+           -://////////////+oooooooooo++////////////::
+            :+ooooooooooooooooooooooooooooooooooooo+:::-
+              -/+ooooooooooooooooooooooooooooooo+/::////:-
+                -:+oooooooooooooooooooooooooooo/::///////:-
+                  --/+ooooooooooooooooooooo+::://////:-
+                     -:+ooooooooooooooooo+:://////:--
+                       /ooooooooooooooooo+//////:-
+                      -ooooooooooooooooooo////-
+                      /ooooooooo+oooooooooo//:
+                     :ooooooo+/::/+oooooooo+//-
+                    -oooooo/::///////+oooooo///-
+                    /ooo+::://////:---:/+oooo//:
+                   -o+/::///////:-      -:/+o+//-
+                   :-:///////:-            -:/://
+                     -////:-                 --//:
+                       --                       -:
