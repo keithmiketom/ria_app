@@ -13,17 +13,17 @@
       <%= cat.description %>
     </div>
 
-</div>
-   <div>
+
+   <div class="edith">
     <span><%= link_to 'Show', cat %><br />
-    <%= link_to 'Edit', edit_cat_path(cat) %><br />
-    <%= link_to 'Destroy', cat, method: :delete, data: { confirm: 'Are you sure?' } %><span>
+    <%= link_to 'Edit', edit_cat_path(cat) %> <%= link_to 'Destroy |', cat, method: :delete, data: { confirm: 'Are you sure?' } %><span>
   </div>
+</div>
 <% end %>
 
-
-<br />
+<div class="static">
 <h3>Add a New Cat</h3>
 <p>
 <%= link_to 'New Cat', new_cat_path %>
 </p>
+</div>

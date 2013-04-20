@@ -1,3 +1,53 @@
 // Place all the styles related to the cats controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1{
+    font-family: sans-serif;
+  text-align: center;
+}
+
+.cat_class{
+  font-family: sans-serif;
+  width:500px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fffacd;
+  padding:5px 5px 10px;
+  margin: 0 auto 10px;
+  h2{
+    font-size: 1.1em;
+    text-align: right;
+    font-family: sans-serif;
+
+  }
+  ul{
+    li{
+
+    }
+  }
+  .cat_description{
+      width:60%;
+
+
+
+
+  }
+}
+
+div.edith{
+  span{
+    a{
+    font-size: 0.7em;
+    }
+  }
+}
+
+.static{
+  position:fixed;
+  top:350px;
+  left:30px;
+  background-color: pink;
+
+
+}

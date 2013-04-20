@@ -1,25 +1,16 @@
 <p id="notice"><%= notice %></p>
-
-<p>
-  <b>Title:</b>
-  <%= @trivium.title %>
-</p>
-
-<p>
-  <b>Fact:</b>
-  <%= @trivium.fact %>
-</p>
-
-<p>
-  <b>Image url:</b>
+<div>
+  <h2>Fact No.<%= @trivium.id %></h2>
+  <h3><%= @trivium.title %></h3>
+  <p><%= @trivium.fact %></p>
   <%= @trivium.image_url %>
-</p>
+  <span>Level <%= @trivium.difficulty %> difficulty</span>
 
-<p>
-  <b>Difficulty:</b>
-  <%= @trivium.difficulty %>
-</p>
+
+</div>
 
 
 <%= link_to 'Edit', edit_trivium_path(@trivium) %> |
 <%= link_to 'Back', trivia_path %>
+
+

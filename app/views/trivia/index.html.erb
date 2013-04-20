@@ -1,29 +1,25 @@
-<h1>Listing trivia</h1>
+<h1>Facts About Cats</h1>
 
-<table>
-  <tr>
-    <th>Title</th>
-    <th>Fact</th>
-    <th>Image url</th>
-    <th>Difficulty</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
 
 <% @trivia.each do |trivium| %>
-  <tr>
-    <td><%= trivium.title %></td>
-    <td><%= trivium.fact %></td>
-    <td><%= trivium.image_url %></td>
-    <td><%= trivium.difficulty %></td>
-    <td><%= link_to 'Show', trivium %></td>
-    <td><%= link_to 'Edit', edit_trivium_path(trivium) %></td>
-    <td><%= link_to 'Destroy', trivium, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
+  <div>
+    <h2>Fact No.<%= trivium.id %></h2>
+    <h3><%= trivium.title %></h3>
+    <p><%= trivium.fact %></p>
+    <%= trivium.image_url %>
+    <span>Level <%= trivium.difficulty %> difficulty</span>
+
+  <div>
+    <span><%= link_to 'Show', trivium %><br/>
+    <%= link_to 'Edit', edit_trivium_path(trivium) %><br />
+    <%= link_to 'Destroy', trivium, method: :delete, data: { confirm: 'Are you sure?' } %></span>
+  </div>
+  </div>
 <% end %>
-</table>
+
 
 <br />
-
-<%= link_to 'New Trivium', new_trivium_path %>
+<div>
+<h3>Add a new Cat Fact</h3>
+<%= link_to 'New Fact about Cats', new_trivium_path %>
+</div>

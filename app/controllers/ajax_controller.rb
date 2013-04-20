@@ -1,4 +1,4 @@
-class AjaxController < ApplicationController
+class AjaxController < ActionController::Base
   def index
 
   end
