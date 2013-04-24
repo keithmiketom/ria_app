@@ -2,6 +2,7 @@
 
 <div class="cat_class">
   <h2><%= @cat.name %></h2>
+  <%=image_tag (@cat.image_url) %>
   <ul>
     <li><%= @cat.age %> years old</li>
     <li><%= @cat.color %> coloured cat</li>

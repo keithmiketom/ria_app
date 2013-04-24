@@ -5,6 +5,7 @@
 
 <div class="cat_class">
   <h2><%= cat.name %></h2>
+  <%=image_tag (cat.image_url) %>
     <ul>
       <li><%= cat.age %> years old</li>
       <li><%= cat.color %> coloured cat</li>
@@ -23,6 +24,7 @@
 
 <div class="static">
 <h3>Add a New Cat</h3>
+  <br /> <br />    <br /><br /><br /><br />
 <p>
 <%= link_to 'New Cat', new_cat_path %>
 </p>

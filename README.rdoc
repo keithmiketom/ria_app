@@ -3,6 +3,8 @@
 This Project will incorporate JavaScript and jQuery competencies, as well as demonstration of HTML5 and CSS3 abilities demonstrating
 a stong ability in coding in both these areas.
 
+The main aim of this project is to develop an app that will be able to assess knowledge learned whilst browsing the site.
+
 
 
 == initial Steps
@@ -16,15 +18,16 @@ a stong ability in coding in both these areas.
 - ajax requests
 - jQuery animation
 
-== Debugger
+== Quiz
+- a quiz based on the Cats and Cat Facts pages
+- Uses jQuery to countdown the timer
+
+== CSS3
 
 
-== Console
 
 
-
-
-== dbconsole
+== HTML5
 
 
 

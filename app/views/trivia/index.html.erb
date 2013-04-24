@@ -6,7 +6,7 @@
     <h2>Fact No.<%= trivium.id %></h2>
     <h3><%= trivium.title %></h3>
     <p><%= trivium.fact %></p>
-    <%= trivium.image_url %>
+    <%= image_tag (trivium.image_url) %>
     <span>Level <%= trivium.difficulty %> difficulty</span>
 
   <div>

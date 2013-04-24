@@ -1,13 +1,7 @@
-class WelcomeController < ApplicationController
-  def index
+class WelcomeController < AjaxController
 
-  end
-
-  def home
-
-  end
-
-  def  quiz
+  layout "ajax"
+    def  quiz
 
   end
 end

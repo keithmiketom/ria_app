@@ -1,13 +1,12 @@
 class AjaxController < ActionController::Base
+
+  layout "ajax"
+
   def index
 
   end
 
-  def home
-
-  end
-
-  def  quiz
+  def quiz
 
   end
 end

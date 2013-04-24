@@ -67,3 +67,8 @@ li:hover{
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
+
+.quiz{
+    width:750px;
+    margin: 0 auto;
+}

@@ -1,16 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>RiaApp</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
+
+  <title>Cats</title>
 </head>
 <body>
-<nav></nav>
-     <h1>VAGINA</h1>
-     <h1>VAGINA</h1>
-<%= yield %>
+<div id="wrapper">
+<div id="menu">
+  <header>
+    <h1>All about Cats</h1>
+    <nav>
+      <a href="/index">Home</a>
+      <a href="/trivia">Cat Trivia</a>
+      <a href="/cats">Cats</a>
+      <a href="/quiz">Cat Quiz</a>
 
+
+    </nav>
+  </header>
+</div>
+<div id="content">
+  <%= yield %>
+
+
+</div>
+
+
+<footer>
+    <p>&copy; 2010- <%= Date.today.year %></p>
+  <h5>Cat Sites</h5>
+  <ul>
+    <li>Lolcats</li>
+    <li>Written Kitten</li>
+    <li>I love cats</li>
+    <li>more baout cats</li>
+  </ul>
+</footer>
+</div><!-- end of wrapper-->
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 </body>
 </html>
